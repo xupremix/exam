@@ -17,21 +17,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "GraphicsLib"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "cgmath",
- "glium",
- "image",
- "instant",
- "rand 0.8.5",
- "robotics_lib",
- "tobj",
- "winit 0.29.10",
-]
-
-[[package]]
 name = "OwnerSheeps_Sound_Tool"
 version = "0.1.0"
 source = "sparse+https://advancedprogramming.disi.unitn.it/api/v1/crates/"
@@ -1639,9 +1624,9 @@ dependencies = [
 name = "exam"
 version = "0.1.0"
 dependencies = [
- "GraphicsLib",
  "ai_robot",
  "clap",
+ "graphics_lib",
  "oxag_ai_j",
 ]
 
@@ -2083,6 +2068,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6c8098adac955faa2d31079b65dc48841251f69efd3ac25477903fc424362ead"
 dependencies = [
  "gl_generator",
+]
+
+[[package]]
+name = "graphics_lib"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "cgmath",
+ "glium",
+ "image",
+ "instant",
+ "rand 0.8.5",
+ "robotics_lib",
+ "tobj",
+ "winit 0.29.10",
 ]
 
 [[package]]
