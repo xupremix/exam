@@ -1,0 +1,12 @@
+[package]
+name = "exam"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ai_robot = {path = "../ai_robot"}
+clap = { version = "4.5.1", features = ["derive"] }
+oxag_ai_j = {path = "../oxag-ai-j"}
+GraphicsLib = {path = "../GraphicsLib"}
